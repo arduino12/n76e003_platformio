@@ -22,6 +22,6 @@ void main(void)
 		P0 ^= 0xff;
 		P1 = ~P1;
 		P30 = !P30;
-		Timer0_Delay1ms(100);
+		Timer0_Delay1ms(1000);
 	}
 }
